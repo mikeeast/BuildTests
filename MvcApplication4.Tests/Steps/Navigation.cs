@@ -49,7 +49,7 @@ namespace MvcApplication4.Tests.Steps
         [Then(@"the page title should be (.*)")]
         public void ThenThePageShouldContainTheTextHomepage(string text)
         {
-            driver.Title.Should().Equal(text);
+            driver.Title.Should().Equal(text + "as");
         }
 
         [Given(@"that I am on the Home Page")]
