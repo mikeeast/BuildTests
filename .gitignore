@@ -1,6 +1,7 @@
 _ReSharper.*
 *.ReSharper.user
 *.suo
+*.cache
 bin/
 Bin/
 obj/

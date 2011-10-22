@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\projects\_test\MvcApp4\build\output\MvcApplication4.Tests.dll" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-10-22" time="08:05:56">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.239" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\projects\_test\MvcApp4\build" machine-name="MIKESTA" user="Micke" user-domain="MikeSta" />
+  <culture-info current-culture="sv-SE" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\projects\_test\MvcApp4\build\output\MvcApplication4.Tests.dll" executed="True" result="Success" success="True" time="10.782" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="MvcApplication4" executed="True" result="Success" success="True" time="10.778" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="10.778" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Features" executed="True" result="Success" success="True" time="10.778" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="NavigationFeature" description="Navigation" executed="True" result="Success" success="True" time="10.777" asserts="0">
+                    <results>
+                      <test-case name="MvcApplication4.Tests.Features.NavigationFeature.NavigationToTheAboutPage" description="Navigation to the About page" executed="True" result="Success" success="True" time="6.424" asserts="0" />
+                      <test-case name="MvcApplication4.Tests.Features.NavigationFeature.NavigationToTheHomePage" description="Navigation to the Home page" executed="True" result="Success" success="True" time="0.229" asserts="0">
+                        <categories>
+                          <category name="mytag" />
+                        </categories>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
