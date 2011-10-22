@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using CassiniDev;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Remote;
@@ -29,7 +30,7 @@ namespace MvcApplication4.Tests.Steps
             Console.WriteLine(applicationPath);
 
             webServer.StartServer(Path.GetFullPath(applicationPath));
-            driver = new InternetExplorerDriver();
+            driver = new ChromeDriver();
         }
 
         [AfterTestRun]
