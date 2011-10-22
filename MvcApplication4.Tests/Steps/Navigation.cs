@@ -30,7 +30,7 @@ namespace MvcApplication4.Tests.Steps
             Console.WriteLine(applicationPath);
 
             webServer.StartServer(Path.GetFullPath(applicationPath));
-            driver = new FirefoxDriver();
+            driver = new InternetExplorerDriver();
         }
 
         [AfterTestRun]
