@@ -19,6 +19,7 @@ Task Info {
 	Write-Host "Build dir: $build_dir" -ForegroundColor Green
 	Write-Host "Build output dir: $build_output_dir" -ForegroundColor Green
 	Write-Host "Code dir: $code_dir" -ForegroundColor Green
+	Write-Host "Nunit: " ${teamcity.dotnet.nunitlauncher}
 }
 
 Task Build -Depends Clean {	
