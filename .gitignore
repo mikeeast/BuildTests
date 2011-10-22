@@ -1,0 +1,9 @@
+_ReSharper.*
+*.ReSharper.user
+*.suo
+bin/
+Bin/
+obj/
+Obj/
+basic-getting-started/
+fubumvc-diagnostics/
