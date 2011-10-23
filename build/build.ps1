@@ -6,7 +6,7 @@ Properties {
 	$tools_dir = "$code_dir\packages"
 	$nunit_dir = "$tools_dir\NUnit.2.5.10.11092\tools"
 	$env:path = "$env:path;$nunit_dir"
-	
+	$nunitlauncher=%teamcity.dotnet.nunitlauncher%
 }
 
 FormatTaskName (("-"*25) + "[{0}]" + ("-"*25))
@@ -19,7 +19,7 @@ Task Info {
 	Write-Host "Build dir: $build_dir" -ForegroundColor Green
 	Write-Host "Build output dir: $build_output_dir" -ForegroundColor Green
 	Write-Host "Code dir: $code_dir" -ForegroundColor Green
-	Write-Host "Nunit: ${global:teamcity.dotnet.nunitlauncher}" 
+	Write-Host "Nunit: ${global:teamcity.dotnet.nunitlauncher} $$nunitlauncher" 
 }
 
 Task Build -Depends Clean {	
